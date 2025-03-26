@@ -18,7 +18,6 @@ body{
     display: flex;
     justify-content: space-between;
     background-color:#d4bba7;
-    transition: background-color 0.3s ease;
 }
 
 .navlogo-section{
@@ -248,7 +247,6 @@ body{
     font-size: 1.5rem;
     font-weight: 500;
     color: #fffaf8;
-    padding-top: 20%;
 }
 .service button{
     width: 70px;
@@ -274,12 +272,12 @@ body{
    display: flex;
    flex-direction: column;
    align-items: center;
-   background-color: #e9dccd;
+   /* background-color: #e9dccd; */
 }
 .gallery-container h2{
     font-family: "Prata", serif;
     font-size:3rem;
-    color:#fffaf8;
+    color:#d4bba7;
 }
 
 .gallery{
@@ -366,3 +364,166 @@ body{
     font-family: "Jost", sans-serif;
     color: #b2a9a7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+@media (max-width:768px){
+
+
+    /* nav */
+    .navlogo-section{
+     width: auto;
+     /* padding-left: 5%; */
+
+    }
+    .navlogo-section img{
+     width: 150px;
+    }
+    .nav-items {
+     display: block;
+     position: fixed;
+     top: 0;
+     right: -100%;
+     background-color:#d4bba7;
+     width: 100%;
+     height: 50vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+     font-family: "Poppins", serif;
+     z-index: 100;
+   }
+
+ .nav-items a {
+     line-height: 10px;
+ }
+
+ .nav-items label {
+     position: absolute;
+     top: -1%;
+     right: 5%;
+ }
+ .nav-items label img{
+     margin-top: 50%;
+ }
+ .nav-items input {
+     display: block;
+ }
+
+ #checking:checked~.nav-items {
+     right: 0;
+ }
+
+
+ .navbar-container label {
+     display: block;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+
+ /* banner */
+
+ .banner{
+    flex-direction: column;
+    padding: 2%;
+    height: auto;
+ }
+ .banner-cont{
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+ }
+ .banner img{
+    width: 100%;
+    height: 500px;
+    padding-bottom: 5%;
+ }
+
+
+ /* why */
+
+ .why-container{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+ }
+ .why{
+    width: 70%;
+ }
+
+
+ /* about */
+ .about-container{
+    flex-direction: column;
+    background-image: none;
+ }
+ .about-container img{
+    width: 100%;
+ }
+ .about-cont{
+    width: 100%;
+    margin-top: 2%;
+    background-image: url("images/leaf low opacity.png");
+    background-size: cover;
+    background-position: center;
+ }
+
+
+ /* services */
+
+ .services{
+    grid-template-columns: repeat(1,1fr);
+
+ }
+ .service{
+    border-radius: 50px;
+    height: 300px;
+ }
+
+ /* gallery */
+ 
+ .gallery{
+    grid-template-columns: repeat(1, 1fr);
+ }
+
+
+ /* footer */
+
+ .footer-cont{
+    height: auto;
+    flex-direction: column-reverse;
+    gap: 10px;
+ }
+ .footer-social{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .footer-links{
+    width: 100%;
+ }
+ #footer-logo{
+    display: none;
+ }
+}
+
