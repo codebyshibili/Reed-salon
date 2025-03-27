@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    background-color:#fffaf8;
+}
+
+/* ..............navbar.................. */
+
+.navbar-container{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#d4bba7;
+    border-bottom: 1px solid #fffaf8;
+}
+
+.navlogo-section{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+.navlogo-section img{
+    width: 200px;
+}
+.navbar-container label {
+    display: none;
+
+}
+#checking{
+    display: none;
+}
+.navbar-container label {
+    display: none;
+}
+
+.nav-items {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: color 0.3s ease;
+}
+
+.nav-items a{
+    font-size: 1.2rem;
+    font-family: "Jost", sans-serif;
+    color:#fffaf8;
+    text-decoration: none;
+}
+.nav-items button{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color:#b2a9a7;
+    border: 2px solid #fffaf8;
+    color:#fffaf8 ;
+    font-family: "Jost", sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* ............banner............ */
+
+
+.banner{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: end;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    background-color:#d4bba7;
+
+}
+.banner h2{
+    font-family: "Prata", serif;
+    font-size:3.5rem;
+    color: #fff1e9;
+}
+
+
+
+/* ............services............... */
+
+
+.service-container{
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  background-color:#fff1e9;
+}
+
+.service{
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color:  #fffaf8;
+  border-radius: 25px;
+}
+
+.service-cont{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  gap: 10px;
+}
+.service-cont img{
+  width: 200px;
+}
+.service-cont h2{
+  font-family: "Prata", serif;
+  font-size:2.5rem;
+  color: #b2a9a7;
+}
+.service-cont p{
+  font-family: "Jost", sans-serif;
+  font-size:1rem;
+  color: #b2a9a7;
+  text-align: justify;
+}
+.service-cont button{
+   width: 150px;
+   height: 40px;
+   border-radius: 25px;
+   border: none;
+   background-color: #e9dccd;
+   color: #fffaf8;
+}
+
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+  background: #fffaf8;
+}
+td {
+  border: 4px solid #e9dccd;
+  padding: 10px;
+  text-align: left;
+  font-family: "Jost", sans-serif;
+  font-size:1rem;
+  color: #b2a9a7;
+}
+th {
+  background-color:#e9dccd;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Prata", serif;
+  border: 4px solid #e9dccd;
+  padding: 10px;
+  color: #fffaf8;
+}
+
+
+
+
+
+ /* ...........footer.............. */
+
+
+
+ .footer{
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: #b2a9a7;
+}
+.footer-cont{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer img{
+  width: 200px;
+  border-right: 2px solid #fffaf8;
+}
+.footer-links{
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fffaf8;
+}
+.footer-links a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Jost", sans-serif;
+  color: #b2a9a7;
+}
+
+.footer-social{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer-social img{
+  width: 40px;
+  border: none;
+}
+.footer-bottom{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffaf8;
+  font-size: 1rem;
+  font-family: "Jost", sans-serif;
+  color: #b2a9a7;
+}
+
